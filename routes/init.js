@@ -60,6 +60,7 @@ app.use("/api/student", require("./api/student"))
 app.use("/api/class", require("./api/class"))
 app.use("/api/book", require("./api/book"))
 app.use("/api/upload", require("./api/upload"))
+app.use("/res", require("./api/download"))
 
 
 //处理错误的中间件
